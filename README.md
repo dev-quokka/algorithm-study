@@ -25,7 +25,7 @@
 
   <br>
   
-## 📌 DSU
+## 📌 DataStructure
 
 - ### Hash
   - [백준 - 나는야 포켓몬 마스터(1620)](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Hash/%EB%B0%B1%EC%A4%80%20-%20%EB%82%98%EB%8A%94%EC%95%BC%20%ED%8F%AC%EC%BC%93%EB%AA%AC%20%EB%A7%88%EC%8A%A4%ED%84%B0(1620).cpp)
