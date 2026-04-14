@@ -35,9 +35,21 @@
 
   <br>
 
+- ### PriorityQueue(우선순위 큐)
+  - [백준 - N번째 큰 수(2075)](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/PriorityQueue(%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90)/%EB%B0%B1%EC%A4%80%20-%20N%EB%B2%88%EC%A7%B8%20%ED%81%B0%20%EC%88%98(2075).cpp)
+  - [프로그래머스 - 프로세스](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/PriorityQueue(%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90)/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.cpp)
+
+  <br>
+
 - ### Stack
   - [백준 - 괄호(9012)](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Stack/%EB%B0%B1%EC%A4%80%20-%20%EA%B4%84%ED%98%B8(9012).cpp)
+  
   <br>
 
 - ### DSU
   - [프로그래머스 - 네트워크(DSU)](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/DSU/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC(DSU).cpp)
+ 
+<br>
+
+- ### Tree
+  - [백준 - 트리 순회(1991)](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Tree/%EB%B0%B1%EC%A4%80%20-%20%ED%8A%B8%EB%A6%AC%20%EC%88%9C%ED%9A%8C(1991).cpp)
