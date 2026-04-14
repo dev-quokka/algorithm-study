@@ -1,3 +1,4 @@
+// 백준 - 나는야 포켓몬 마스터 (1620)
 // https://www.acmicpc.net/problem/1620
 
 #include <iostream>

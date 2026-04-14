@@ -1,3 +1,4 @@
+// 백준 - 서울 지하철 2호선(16947)
 // https://www.acmicpc.net/problem/16947
 
 #include <iostream>

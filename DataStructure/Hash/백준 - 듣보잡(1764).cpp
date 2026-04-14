@@ -1,3 +1,4 @@
+// 백준 - 듣보잡(1764)
 // https://www.acmicpc.net/problem/1764
 
 #include <iostream>
