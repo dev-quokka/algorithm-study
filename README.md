@@ -25,6 +25,14 @@
   <br>
 
   <br>
+
+## 📌 Sliding Window
+
+- [백준 - 부분합(1806)](https://github.com/dev-quokka/algorithm-study/blob/main/Sliding%20Window/%EB%B0%B1%EC%A4%80%20-%20%EB%B6%80%EB%B6%84%ED%95%A9(1806).cpp)
+
+  <br>
+
+  <br>
   
 ## 📌 DataStructure
 
