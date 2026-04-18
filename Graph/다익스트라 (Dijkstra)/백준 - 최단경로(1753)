@@ -1,0 +1,67 @@
+// 백준 - 최단경로(1753)
+// https://www.acmicpc.net/problem/1753
+
+#include <iostream>
+#include <vector>
+#include <queue>
+
+using namespace std;
+
+struct NextInfo {
+	int cost, next;
+
+	bool operator<(const NextInfo& other) const {
+		if (cost == other.cost) return next > other.next;
+		return cost > other.cost;
+	}
+};
+
+int v, e, startNode;
+vector<int> answer;
+vector<vector<NextInfo>> board;
+
+void Dijk() {
+	answer[startNode] = 0;
+
+	priority_queue<NextInfo> pq;
+	pq.push({ 0, startNode });
+
+	while (!pq.empty()) {
+		auto [cost, cur] = pq.top();
+		pq.pop();
+
+		if (cost > answer[cur]) continue;
+
+		for (int i = 0; i < board[cur].size(); i++) {
+			auto [nextCost, next] = board[cur][i];
+			int tempCost = cost + nextCost;
+
+			if (tempCost < answer[next]) {
+				answer[next] = tempCost;
+				pq.push({ tempCost, next });
+			}
+		}
+	}
+
+}
+
+int main() {
+	cin >> v >> e >> startNode;
+
+	board.resize(v + 1);
+	answer.resize(v + 1, 1e9);
+
+	for (int i = 0; i < e; i++) {
+		int s, e, w; cin >> s >> e >> w;
+		board[s].push_back({ w, e });
+	}
+
+	Dijk();
+
+	for (int i = 1; i < answer.size(); i++) {
+		if (answer[i] == 1e9) cout << "INF" << '\n';
+		else cout << answer[i] << '\n';
+	}
+
+	return 0;
+}

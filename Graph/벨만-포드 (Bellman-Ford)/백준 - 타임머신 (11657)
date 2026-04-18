@@ -1,0 +1,64 @@
+// 백준 - 타임머신 (11657)
+// https://www.acmicpc.net/problem/11657
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+struct Node{
+    int s, e, w;
+};
+
+int n,m;
+vector<long long> answer;
+vector<Node> board;
+
+bool Bellman(){
+    answer[1] = 0; // 시작점 초기화
+    
+    for(int i=0; i<n-1; i++){
+        for(auto& [s, e, w] : board){
+            if(answer[s] == 1e18) continue;
+            
+            long long tempCost = answer[s] + w;
+            if(tempCost < answer[e]){
+                answer[e] = tempCost;
+            }
+        }
+    }
+    
+    for(auto& [s, e, w] : board){ // 음수 사이클 유무 체크
+        if(answer[s] == 1e18) continue;
+            
+        int tempCost = answer[s] + w;
+        if(tempCost < answer[e]) return false;
+    }
+    
+    return true;
+}
+
+int main(){
+    ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+    
+    cin >> n >> m;
+   
+    board.reserve(m);
+    answer.resize(n+1, 1e18);
+    
+    for(int i=0; i<m; i++){
+        int s,e,w; cin >> s >> e >> w;
+        board.push_back({s,e,w});
+    }
+    
+    if(Bellman()){
+        for(int i=2; i<=n; i++){
+            if(answer[i] == 1e18) cout << -1 << '\n';
+            else cout << answer[i] << '\n';
+        }
+    }
+    else cout << -1 << '\n';
+
+    return 0;
+}
