@@ -16,6 +16,16 @@
 - ### BFS
 
   <br>
+
+- ### 다익스트라 (Dijkstra)
+  - [백준 - 최단 경로(1753))](https://github.com/dev-quokka/algorithm-study/blob/main/Graph/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC%20(Dijkstra)/%EB%B0%B1%EC%A4%80%20-%20%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C(1753))
+
+  <br>
+
+- ### 벨만-포드 (Bellman-Ford)
+  - [백준 - 타임머신(11657))](https://github.com/dev-quokka/algorithm-study/blob/main/Graph/%EB%B2%A8%EB%A7%8C-%ED%8F%AC%EB%93%9C%20(Bellman-Ford)/%EB%B0%B1%EC%A4%80%20-%20%ED%83%80%EC%9E%84%EB%A8%B8%EC%8B%A0%20(11657)) 
+
+  <br>
   
   <br>
 
