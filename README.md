@@ -41,6 +41,7 @@
 
 - [LeetCode 324](https://github.com/dev-quokka/algorithm-study/blob/main/Greedy/LeetCode%20-%20Wiggle%20Sort%20II.cpp)
 - [프로그래머스 - 큰 수 만들기](https://github.com/dev-quokka/algorithm-study/blob/main/Greedy/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%ED%81%B0%20%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0.cpp)
+- [프로그래머스 - 기능개발](https://github.com/dev-quokka/algorithm-study/blob/main/Greedy/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.cpp)
 
   <br>
 
@@ -61,6 +62,8 @@
   - [백준 - 듣보잡(1764)](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Hash/%EB%B0%B1%EC%A4%80%20-%20%EB%93%A3%EB%B3%B4%EC%9E%A1(1764).cpp)
   - [프로그래머스 - 완주하지 못한 선수](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Hash/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.cpp)
   - [프로그래머스 - 베스트 앨범](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Hash/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94.cpp)
+  - [프로그래머스 - 의상](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Hash/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%EC%9D%98%EC%83%81.cpp)
+  - [프로그래머스 - 전화번호 목록](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Hash/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%AA%A9%EB%A1%9D.cpp)
 
   <br>
 
