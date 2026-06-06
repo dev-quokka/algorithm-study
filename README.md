@@ -97,14 +97,16 @@
 
 - ### DSU
   - [프로그래머스 - 네트워크(DSU)](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/DSU/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC(DSU).cpp)
- 
+
+  <br>
+
+- ### Tree
+  - [백준 - 트리 순회(1991)](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Tree/%EB%B0%B1%EC%A4%80%20-%20%ED%8A%B8%EB%A6%AC%20%EC%88%9C%ED%9A%8C(1991).cpp)
+
   <br>
 
   <br>
   
 ## 📌 Math
 
-- [프로그래머스 - H-Index](https://github.com/dev-quokka/algorithm-study/blob/main/Math/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%EC%A4%84%20%EC%84%9C%EB%8A%94%20%EB%B0%A9%EB%B2%95.cpp)
-
-- ### Tree
-  - [백준 - 트리 순회(1991)](https://github.com/dev-quokka/algorithm-study/blob/main/DataStructure/Tree/%EB%B0%B1%EC%A4%80%20-%20%ED%8A%B8%EB%A6%AC%20%EC%88%9C%ED%9A%8C(1991).cpp)
+- [프로그래머스 - 줄 서는 방법](https://github.com/dev-quokka/algorithm-study/blob/main/Math/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20-%20%EC%A4%84%20%EC%84%9C%EB%8A%94%20%EB%B0%A9%EB%B2%95.cpp)
